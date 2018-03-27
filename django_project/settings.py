@@ -168,6 +168,7 @@ if not IS_LOCAL:
     STATIC_ROOT = os.path.join(os.path.dirname(__file__), 'static')
 
 SITE_ID = 1
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # captcha
 RECAPTCHA_PUBLIC_KEY = '6LcBgg4UAAAAAGONxlPgKF-BbfaOrQ2JzQSEeIED'
