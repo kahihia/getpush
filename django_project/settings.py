@@ -36,7 +36,7 @@ ADMINS =  (
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = IS_LOCAL
+DEBUG = True
 
 TEMPLATE_DEBUG = DEBUG
 
