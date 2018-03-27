@@ -13,6 +13,7 @@ django-fields==0.3.0
 django-imagekit==3.3
 django-recaptcha==1.1.0
 django-uuidfield==0.5.0
+dj_database_url
 gevent==1.0
 greenlet==0.4.2
 gunicorn==17.5
