@@ -125,8 +125,7 @@ USE_L10N = True
 
 USE_TZ = False
 
-if IS_LOCAL:
-    STATICFILES_DIRS = ( os.path.join(os.path.dirname(__file__), 'static'),)
+STATICFILES_DIRS = ( os.path.join(os.path.dirname(__file__), 'static'),)
 
 # PayPal
 PAYPAL_TEST = False
