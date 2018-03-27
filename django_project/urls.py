@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 from django.conf import settings
 from django.contrib import admin
 from django.views.generic import TemplateView, RedirectView
-
+from django.conf.urls.static import static
 admin.autodiscover()
 
 handler500 = 'django_project.views.server_error'
