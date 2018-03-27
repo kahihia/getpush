@@ -64,7 +64,7 @@ INSTALLED_APPS = (
     'paypal.standard.ipn',
     'djacobs_apns',
     'pushmonkey',
-    'south',
+    #'south',
     'stats',
     'backup',
     'plans',
