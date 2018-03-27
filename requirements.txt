@@ -29,6 +29,7 @@ psycopg2
 pycrypto==2.6.1
 pyserial==2.6
 requests==2.2.1
+whitenoise
 six==1.5.2
 ssh-import-id==3.21
 urllib3==1.7.1
