@@ -143,10 +143,6 @@ urlpatterns = patterns('',
                        url(r'^banner-mobile/', TemplateView.as_view(template_name='agent.html'), name='banner-mobile'),
                        url(r'^banner-smobile/', TemplateView.as_view(template_name='agent-schdule.html'), name='banner-smobile'),
                        url(r'^admin/', include(admin.site.urls)),
-                       )
-
-if settings.IS_LOCAL:
-  # media files 
-  urlpatterns += patterns('',
+                       ) += patterns('',
   (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}))
 
