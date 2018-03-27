@@ -183,9 +183,7 @@ DEFAULT_DIALOG_BUTTON = "#99CC56"
 
 TRIAL_DAYS = 30
 
-LOGGING_PATH = '/home/django/gunicorn.errors'
-if IS_LOCAL:
-    LOGGING_PATH = os.path.join(PROJECT_DIR, "gunicorn.errors")
+#LOGGING_PATH = os.path.join(PROJECT_DIR, "gunicorn.errors")
 
 LOGGING = {
     'version': 1,
